@@ -1,0 +1,85 @@
+.Navegador{
+    background-color: #FF6500;
+}
+
+.Yo{
+    width:10%
+
+}
+
+.fondo{
+    width: 100%
+}
+
+.footer{
+    background-color: #FF6500;
+}
+
+.git{
+    width: 50px
+}
+.linkedin{
+    width:40px
+}
+.whatsapp{
+    width: 40px
+}
+.x{
+    width:40px
+}
+
+.instagram{
+    width: 40px;
+}
+
+
+.html{
+    width:15%
+}
+.css{
+    width:15%
+}
+.react{
+    width:15%
+}
+.javascript{
+    width:15%
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.padre{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.html{
+    height: fit-content;
+}
+.css{
+    height: fit-content;
+}
+.javascript{
+    height: fit-content;
+}
+.react{
+    height: fit-content;
+}
