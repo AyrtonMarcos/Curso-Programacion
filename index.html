@@ -5,67 +5,98 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>A.M Devolper </title>
             <link rel="stylesheet" href="./styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
        </head>
+
+       <nav class="navbar">
+        <a href="#"><img class="logo"src="./imagenes/logo-A.M" alt="logo"></a>
+        <ul class="nav_list">
+         <li class="nav_link"><a href="#sobremi">About me</a></li>
+         <li class="nav_link"><a href="#habilidades">Skills</a></li>
+         <li class="nav_link"><a href="#lenguajes">Languages</a></li>
+         <li class="nav_link"><a href="#proyectos">Projects</a></li>
+         <li class="nav_link"><a href="#contacto">Contact me</a></li>
+        </ul>
+      </nav>
+
     <body>
         <header>
-            <nav>
-              <ul class="navegador">
-               <li><a href="#sobremi">About me</a></li>
-               <li><a href="#habilidades">Skills</a></li>
-               <li><a href="#lenguajes">Lenguajes con los que trabajo</a></li>
-               <li><a href="#proyectos">Proyects</a></li>
-               <li><a href="#contacto">Contact me</a></li>
-              </ul>
-            </nav>
-        </header>
-           <div class="presentacion" id="presentacion">
-              <div class="presentacion-texto">
-                  <h1> Hi!, I'm Ayrton, devolper design.</h1>
-              </div>
+            <div class="presentacion" id="presentacion">
+                 <h1> Hi! I'm Ayrton,<br>developer desing.</h1>
+                 <img class="programando"src="./imagenes/Ayrton-trabajando.jpg" alt="ayrton programando" >
             </div>
-           <section class="sobremi" id="sobremi">
+        </header>
+
+        <section class="sobremi" id="sobremi">
                   <h2>About me </h2>
                   <img class="Yo" src="./imagenes/Ayrton Marcos.jpg" alt="Ayrton Marcos" >
-                  <p>Tengo 29 años y estoy comenzando a transitar mi camino como diseñador web. Mi principal objetivo está enfocado en desarrollar y diseñar un sitio web atractivo e interactivo, que garantice la accesibilidad web, utilizando Visual Studio como mi principal herramienta de trabajo.</p>
-           </section>
+                  <p>I'm 29 years old and I'm just starting to walk my path as a web designer. <br>
+                    My main objective is focused on developing and designing an attractive and interactive website,<br>
+                     which guarantees web accessibility,<br>
+                      using Visual Studio as my main work tool.</p>
+        </section>
 
-           <section class="habilidades" id="habilidades">
+        <section class="habilidades" id="habilidades">
                  <h2>Skills</h2>
-                <p>Mi curiosidad por aprender cosas nuevas me ha llevado a tener conocimientos muy variados, como fotografía/edición, ilustraciones y diseño/construcción de objetos. Esto me ha servido para ampliar mis redes y tener mas herramientas para poder desempeñarme con mayor facilidad a diferentes escenarios laborales.</p>
+                <p>My curiosity to learn new things has led me to have a wide variety of backgrounds,<br>
+                   such as photography/editing, illustrations, and object design/construction.<br>
+                    This has helped me to enrich my cultural capital and <br>
+                     have more tools to be able to perform with versatility in different scenarios.</p>
                 
-            </section>
+        </section>
 
-           <section class="lenguajes" id="lenguajes">
-              <h2>Lenguajes con los que trabajo</h2>
+        <section class="lenguajes" id="lenguajes">
+              <h2>Lenguages</h2>
               <div class="padrelenguajes">
-                  <img class="html" src="./imagenes/html.png" alt="logo de lenguaje html">
-                  <img class="css" src="./imagenes/css.png" alt="logo de lenguaje css">
-                  <img class="react" src="./imagenes/react.png" alt="logo de lenguaje react">
-                  <img class="javascript" src="./imagenes/javascript.png" alt="logo de lenguaje javascript">
-                
+                  <div class="html-jv">
+                    <img class="html iconos" src="./imagenes/html.png" alt="logo de lenguaje html">
+                    <img class="javascript iconos" src="./imagenes/javascript.png" alt="logo de lenguaje javascript">
+                 </div>
+                  <div class="css-react">
+                    <img class="css iconos" src="./imagenes/css.png" alt="logo de lenguaje css">
+                    <img class="react iconos" src="./imagenes/react.png" alt="logo de lenguaje react">
+                  </div>
                </div>
-            </section>
+        </section>
           
-            <section class="proyectos" id="proyectos">
-                <h2>Proyects</h2>
-                <div>
-                    <p>Proyecto 1</p>
-                    <p>Proyecto 2</p>
-                    <p>Proyecto 3</p>
-                </div>
-            </section>
+        <section class="proyectos" id="proyectos">
+                <h3 class="titulo_proyectos">Projects</h2>
+                <div class="bloques">
+                   <div>
+                     <p class="proyect">Project 1</p>
+                     <img class="imagen-muestra"src="./imagenes/abstract-paper-cut-shape-wave-background.jpg" alt="imagen de muestra">
+                   </div>
+                   <div>
+                     <p class="proyect">Project 2</p>
+                     <img class="imagen-muestra"src="./imagenes/abstract-paper-cut-shape-wave-background.jpg" alt="imagen de muestra">
+                   </div>
+                   <div>
+                     <p class="proyect">Project 3</p>
+                     <img class="imagen-muestra"src="./imagenes/abstract-paper-cut-shape-wave-background.jpg" alt="imagen de muestra">
+                   </div>
+                   <div>
+                     <p class="proyect">Project 4</p>
+                     <img class="imagen-muestra"src="./imagenes/abstract-paper-cut-shape-wave-background.jpg" alt="imagen de muestra">
+                   </div>
+                 </div>
+        </section>
             
-            <footer class="contacto" id="contacto">
+        <footer id="contacto">
                 <div>
                     <h2>Contact me</h2>
-                    <img class="git" src="./imagenes/github.png" alt="Github">
-                    <img class="linkedin" src="./imagenes/linkedin.png" alt="Linkedin">
-                    <img class="whatsapp" src="./imagenes/whatsapp.png" alt="Whatsapp">
-                    <img class="x" src="./imagenes/X.png" alt="X">
-                    <img class="instagram" src="./imagenes/instagram.png" alt="Instagram">
+                    <div class="contacto">
+                       <a href="https://github.com/AyrtonMarcos"><img class="git icon" src="./imagenes/github 2.png" alt="Github"></a>
+                       <a href="https://www.linkedin.com/in/ayrton-thomas-marcos-367588197/"><img class="linkedin icon" src="./imagenes/linkedin 2.png" alt="Linkedin"></a>
+                       <a href="https://wa.me/542262567589"><img class="whatsapp icon" src="./imagenes/whatsapp.png" alt="Whatsapp"></a>
+                       <a href="https://x.com/AyrtonMarcos8"> <img class="x icon" src="./imagenes/x2.png" alt="X"></a>
+                       <a href="https://www.instagram.com/ayrtonmarcos?igsh=MXNscXMwZzNqNHpmYg=="><img class="instagram icon" src="./imagenes/instagram.png" alt="Instagram"></a>
+                    </div> 
+                    <p class="pie">&copy;2024 Web Portfolio</p>
                 </div> 
                
-             </footer>
+       </footer>
            
            
 
